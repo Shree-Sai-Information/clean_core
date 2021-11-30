@@ -19,7 +19,7 @@ We're on a journey to create a package that helps implement the Clean Architectu
 Here's our roadmap :
 
 - [x] Models for Interaction between API & UseCase layer
-  [ ] Base classes for creating API & UseCase classes
+- [] Base classes for creating API & UseCase classes
 
 ## Contributing
 
