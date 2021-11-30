@@ -14,11 +14,12 @@ Usage samples coming soon
 
 ## Additional information
 
-We're on a journey to create this into a package that helps implement the Clean Architecture for flutter Projects with ease.
+We're on a journey to create a package that helps implement the Clean Architecture for flutter Projects with ease.
 
 Here's our roadmap :
-[x] Models for Interaction between API & UseCase layer
-[ ] Base classes for creating API & UseCase classes
+
+- [x] Models for Interaction between API & UseCase layer
+  [ ] Base classes for creating API & UseCase classes
 
 ## Contributing
 

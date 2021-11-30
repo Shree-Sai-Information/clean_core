@@ -29,6 +29,17 @@ class APIResult<T> {
     }
   }
 
+  UseCaseResult<T> returnUseCaseResultWhen({
+    required T Function(T data) onData,
+    required String Function(ApiException error) onFailure,
+  }) {
+    if (this is ApiSuccess) {
+      return UseCaseSuccess(data: onData(_data!));
+    } else {
+      return UseCaseError(error: onFailure(_error!));
+    }
+  }
+
   APIResult._success({required T data}) {
     _data = data;
   }
